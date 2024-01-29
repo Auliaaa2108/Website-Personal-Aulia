@@ -28,7 +28,7 @@
   padding: 5px;
   font-size: 20px;
   color: #fff;
-  font-family: "Arial" monospace;
+  font-family: 'Times New Roman', serif;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -136,7 +136,7 @@
 .banner-area {
   position: relative;
   transition: 2s;
-  background-image: url(../images/bs3.jpg);
+  background-image: url('../images/bs3.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -148,7 +148,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  background-image: url(../images/aulia.jpg);
+  background-image: url('../images/aulia.jpg');
   background-size: cover;
   background-position: center;
   top: 50%;
@@ -178,7 +178,7 @@
 #iden-name {
   font-size: 30px;
   background-color: rgba(0, 0, 0, 0.3);
-  font-family: "audiowide";
+  font-family: 'Times New Roman', serif;
 }
 .subtitle1,
 .subtitle2 {
@@ -186,7 +186,7 @@
   font-size: 30px;
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
-  font-family: "baloo tamma";
+  font-family: 'Times New Roman', serif;
 }
 .title-name p {
   color: #fff;
@@ -571,7 +571,7 @@
 }
 h1 {
   font-size: 50px;
-  font-family: "Audiowide";
+  font-family: 'Times New Roman', serif;
 }
 p {
   font-size: 24px;
@@ -601,13 +601,13 @@ p {
   content: '"';
   font-size: 40px;
   color: orangered;
-  font-family: sans-serif;
+  font-family: 'Times New Roman', serif;
 }
 .testimonial p::before {
   content: '"';
   font-size: 40px;
   color: orangered;
-  font-family: sans-serif;
+ font-family: 'Times New Roman', serif;
 }
 .inner {
   max-width: 1200px;

@@ -55,7 +55,7 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    background-image: url(../images/bback.jpg);
+    background-image: url('../images/aulia.jpg');
     background-size: cover;
     background-position: center;
     top: 37%;
@@ -71,7 +71,7 @@
 .main-part h2{
     text-align: center;
     font-size: 30px;
-    font-family: 'audiowide', cursive;;
+    font-family: 'Times New Roman', serif;
 }
 fieldset{
     width: 100%;
@@ -93,7 +93,7 @@ legend{
     border: 2px solid darkorange;
     color: white;
     background-color: darkorange;
-    font-family: 'Righteous', monospace;
+    font-family: 'Times New Roman', serif;
     border-radius: 4px;
 }
 .per-detail, .work-detail{
@@ -111,7 +111,7 @@ legend{
     text-align:left;
     padding: 5px;
     font-size: 20px;
-    font-family: 'Kelly Slab';
+    font-family: 'Times New Roman', serif;
     letter-spacing: 3px;
 }
 .per-detail .edu-detail .work-detail, td{
@@ -119,13 +119,13 @@ legend{
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Baloo Tamma', sans-serif;
+    font-family: 'Times New Roman', serif;
 }
 caption{
     font-size: 20px;
     float: left;
     margin-left: 10%;
-    font-family: 'kelly slab', monospace;
+    font-family: 'Times New Roman', serif;
     font-weight: bold;
     color:darkgreen;
 }
