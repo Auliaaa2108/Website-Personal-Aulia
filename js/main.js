@@ -45,12 +45,12 @@ window.onload = function () {
 
   function changeImage() {
     var BackgroundImg = [
-      "./images/ev1.jpg",
-      "./images/bkmt.jpg",
-      "./images/bs1.jpg",
-      "./images/bs2.jpg",
-      "./images/bksl2.jpg",
-      "./images/mt2.jpg",
+      "./images/proyek/crm2.png",
+      "./images/bps.png",
+      "./images/unand.png",
+      "./images/proyek/crm1.png",
+      "./images/proyek/mobTA.png",
+      "./images/mta.png",
     ];
     var i = Math.floor(Math.random() * 6);
     document.getElementById("home").style.backgroundImage =
@@ -58,3 +58,15 @@ window.onload = function () {
   }
   window.setInterval(changeImage, 5000);
 };
+function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}

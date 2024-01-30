@@ -40,7 +40,16 @@
     height: 350px;
     max-height: 500px;
     border-radius: 8px;
-    background-image: url(../images/blog.jpg);
+    background-image: url(../images/halawal.png);
+    background-position: center;
+    background-size: cover;
+}
+.cont-img1{
+    width: 350px;
+    height: 350px;
+    max-height: 500px;
+    border-radius: 8px;
+    background-image: url(../images/mta.png);
     background-position: center;
     background-size: cover;
 }
@@ -108,7 +117,7 @@
 .blog-header{
     font-size: 25px;
     font-weight: bold;
-    font-family: 'audiowide';
+    font-family: "Arial" monospace;
     text-align: left;
     letter-spacing: 2px;
 }
@@ -120,7 +129,17 @@
 .h2{
     font-size: 30px;
     font-weight: bold;
-    font-family: audiowide;
+    font-family: "Arial" monospace;
     color: #2e2e2e;
     text-decoration: underline;
 }
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }

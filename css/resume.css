@@ -55,7 +55,11 @@
     position: absolute;
     width: 200px;
     height: 200px;
+<<<<<<< HEAD
+    background-image: url(../images/aulia.jpg);
+=======
     background-image: url('../images/aulia.jpg');
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
     background-size: cover;
     background-position: center;
     top: 37%;
@@ -71,7 +75,11 @@
 .main-part h2{
     text-align: center;
     font-size: 30px;
+<<<<<<< HEAD
+    font-family: "Arial" monospace;;
+=======
     font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
 }
 fieldset{
     width: 100%;
@@ -93,7 +101,11 @@ legend{
     border: 2px solid darkorange;
     color: white;
     background-color: darkorange;
+<<<<<<< HEAD
+    font-family: "Arial" monospace;
+=======
     font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
     border-radius: 4px;
 }
 .per-detail, .work-detail{
@@ -119,13 +131,21 @@ legend{
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
+<<<<<<< HEAD
+    font-family: "Arial" monospace;
+=======
     font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
 }
 caption{
     font-size: 20px;
     float: left;
     margin-left: 10%;
+<<<<<<< HEAD
+    font-family: "Arial" monospace;
+=======
     font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
     font-weight: bold;
     color:darkgreen;
 }

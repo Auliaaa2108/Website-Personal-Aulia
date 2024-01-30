@@ -18,7 +18,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgb(0, 0, 0, 0.79);
+  background-color: rgba(172, 218, 214, 0.9);
   width: 100%;
   height: 70px;
   z-index: 1;
@@ -28,7 +28,11 @@
   padding: 5px;
   font-size: 20px;
   color: #fff;
+<<<<<<< HEAD
+  font-family: "Roboto", sans-serif;
+=======
   font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -92,7 +96,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(172, 0, 0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -178,7 +182,11 @@
 #iden-name {
   font-size: 30px;
   background-color: rgba(0, 0, 0, 0.3);
+<<<<<<< HEAD
+  font-family: "Roboto", sans-serif;
+=======
   font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
 }
 .subtitle1,
 .subtitle2 {
@@ -186,7 +194,11 @@
   font-size: 30px;
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
+<<<<<<< HEAD
+  font-family: "Roboto", sans-serif;
+=======
   font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
 }
 .title-name p {
   color: #fff;
@@ -357,7 +369,7 @@
   width: 100%;
   border-radius: 50px;
   float: right;
-  background-image: url(../images/witlp.JPG);
+  background-image: url(../images/biru.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -440,35 +452,40 @@
 .service-area {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:  flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  height: auto;
+  margin: 0 auto;
 }
 .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 100%;
+  justify-content:flex-start;
+  flex-direction: row;
+  margin: 0 auto;
+  
+  
 }
 .container .box {
   position: relative;
-  width: 350px;
+  flex: 1;
   padding: 40px;
-  min-height: 600px;
+  /* min-height: 600px; */
   background: #1a1a1a;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
   border-radius: 10px;
-  margin: 20px;
+  /* margin: 20px; */
   box-sizing: border-box;
   overflow: hidden;
   text-align: center;
   color: white;
+  margin: 10px;
 }
 .container .box::before {
   content: "";
-  width: 50%;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -482,13 +499,17 @@
   color: #fff;
   background-color: #000;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 0 auto;
   border-radius: 30%;
   font-size: 40px;
   font-weight: 700;
   transition: 0.5s;
+  margin: 0 -5px;
+  content: "";
+  display: table;
+  clear: both;
 }
 .container .box:nth-child(1) .icon {
   box-shadow: 0 0 0 0 #bf065c;
@@ -529,17 +550,18 @@
   position: relative;
   z-index: 1;
   transition: 0.5s;
+  
 }
 .container .box:hover .content {
   color: #fff;
 }
 .container .box .content h3 {
   font-size: 30px;
-  margin: 10px 0;
+  margin: 0 auto;
   padding: 0;
 }
 .container .box .content p {
-  margin: 0;
+  margin: 0 auto;
   text-align: justify;
   padding: 0;
 }
@@ -565,13 +587,17 @@
   }
 }
 .text-part {
-  width: 65%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   text-align: justify;
 }
 h1 {
   font-size: 50px;
+<<<<<<< HEAD
+  font-family: "Roboto", sans-serif;
+=======
   font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
 }
 p {
   font-size: 24px;
@@ -601,13 +627,21 @@ p {
   content: '"';
   font-size: 40px;
   color: orangered;
+<<<<<<< HEAD
+  font-family: "Roboto", sans-serif;
+=======
   font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
 }
 .testimonial p::before {
   content: '"';
   font-size: 40px;
   color: orangered;
+<<<<<<< HEAD
+  font-family: "Roboto", sans-serif;
+=======
  font-family: 'Times New Roman', serif;
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
 }
 .inner {
   max-width: 1200px;
@@ -626,7 +660,7 @@ p {
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .col {
   flex: 33.33%;
@@ -805,7 +839,8 @@ textarea {
 }
 /*Copyright information style*/
 .copyright {
-  background: rgb(20, 20, 20);
+  
+  background: rgba(172, 218, 214, 0.9);
   bottom: 0;
   left: 0;
   display: flex;

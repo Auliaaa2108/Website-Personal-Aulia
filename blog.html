@@ -1,42 +1,337 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <meta lang="en">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link rel="shortcut icon" href="images/Iconslogo/rsz_logo_1-150x150.png" />
-        <link href="css/blog.css" type="text/css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tamma|Kelly+Slab|Neucha|Righteous&display=swap" rel="stylesheet">
-    <style>
-        .toggle{
-            height: 0px;
-            background-color: #2e2e2e;
-        }
-        #open{
-            color: aliceblue;
-        }
-        @media only screen and (max-width: 800px){
-            .toggle{
-                height: 50px;
-            }
-            
-        }
-    </style>
-    </head>
-    <body>
-        <div class="toggle">
-            <span style="font-size:40px;cursor:pointer;margin-left: 10px;" onclick="openNav()" id="open">&#9776; </span>
+
+<head>
+  <meta charset="utf-8">
+  <meta lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/Iconslogo/rsz_logo_1-150x150.png" />
+  <link href="css/blog.css" type="text/css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tamma|Kelly+Slab|Neucha|Righteous&display=swap"
+    rel="stylesheet">
+  <style>
+    .toggle {
+      height: 0px;
+      background-color: #2e2e2e;
+    }
+
+    #open {
+      color: aliceblue;
+    }
+
+    @media only screen and (max-width: 800px) {
+      .toggle {
+        height: 50px;
+      }
+
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    /* Bottom left text */
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+    }
+
+    /* Top left text */
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+    }
+
+    /* Top right text */
+    .top-right {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+    }
+
+    /* Bottom right text */
+    .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+    }
+
+    /* Centered text */
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="toggle">
+    <span style="font-size:40px;cursor:pointer;margin-left: 10px;" onclick="openNav()" id="open">&#9776; </span>
+  </div>
+  <div id="myNav" class="navbar" style="background-color: rgba(172, 218, 214, 0.9);">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="close">&times;</a>
+    <div class="navbar-content">
+      <a href="home.html">Home</a>
+      <a href="cv.html">About Me</a>
+      <a href="blog.html" id="active">Portofolio</a>
+      
+    </div>
+  </div>
+  <div class="blog">
+    <h1 style="color:darkviolet; position: relative; left: 20%;"><span
+        style="color: darkorange; text-decoration: underline">Proyek</span>Yang Pernah Dikerjakan</h1>
+    <!-- MAIN (Center website) -->
+    <div class="main">
+
+
+      <hr><br>
+
+      <h1>Pembangunan Sistem Informasi Manajemen Transaksi dan Inventory Laundry berbasis Website</h1>
+      <br>
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column">
+          <img src="images/halawal.png">
+          <hr><br>
+          <br>
+          <h1>Pembangunan Dashboard Business Intelligence Untuk Visualisasi Data Sumatera Barat Dalam Angka</h1>
+          <img src="images/bps.png">
+
+
+          <hr><br>
         </div>
-       <div id="myNav" class="navbar" style="background-color: rgba(0,0,0,0.9);">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="close">&times;</a>
-          <div class="navbar-content">
-            <a href="home.html">Home</a>
-            <a href="resume.html">CV</a>
-            <a href="blog.html" id="active">Blog</a>
-            <a href="contact.html">Contact</a>
+        <div class="column">
+          <hr><br>
+          <br>
+          <h1>Pembangunan Dashboard Business Intelligence Untuk Visualisasi data Program Studi Universitas Andalas.</h1>
+          <img src="images/unand.png">
+
+
+          <hr><br>
+        </div>
+        <div class="column">
+          <h1>Penerapan ERP Bee Accounting Pada Perusahaan Atriq Cell
+          </h1>
+          <img src="images/proyek/beeac.png">
+
+
+        </div>
+        <hr><br>
+        <br>
+        <div class="column">
+          <h1>Pembuatan perancangan UI Aplikasi CRM</h1>
+          <img src="images/proyek/crm1.png">
+          <img src="images/proyek/crm2.png">
+          <img src="images/proyek/crm3.png">
+        </div>
+        <hr><br>
+        <br>
+        <div class="column">
+          <h1>Pembangunan Sistem Informasi Manajemen TA berbasis Mobile</h1>
+          <img src="images/proyek/mobTA.png">
+          <img src="images/mta.png">
+
+        </div>
+        <hr><br>
+        <br>
+        <div class="column">
+          <h1>Analisis Sentimen Twitter untuk Menilai Opini Publik Terhadap UU KUHP Menggunakan Algoritma Naïve Bayes
+            Classifier</h1>
+          <img src="images/proyek/naive.png">
+        </div>
+      </div>
+
+      <!-- END MAIN -->
+    </div>
+    <!-- <div class="blog-main">
+      <div class="main-part" id="main">
+        <div class="cont-img" id="coimg">
+        </div>
+        <div class="cont-text">
+          <div class="blog-header">
+            Pembangunan Sistem Informasi Manajemen Transaksi dan Inventory berbasis Website
+            <hr style="clear: both; height: 3px; background-color: #101010">
           </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+            nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor.
+              Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+              Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet
+              sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non
+              fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+          <button onclick="myFunction()" id="myBtn">Read more</button>
+
         </div>
+      </div>
+    </div>
+    <div class="blog-main">
+      <div class="main-part" id="dua">
+        <div class="cont-img1" id="coimg1">
+        </div>
+        <div class="cont-text">
+          <div class="blog-header">
+            Pembangunan Sistem Informasi Manajemen TA berbasis Mobile
+            <hr style="clear: both; height: 3px; background-color: #101010">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum,
+            nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor.
+              Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet.
+              Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet
+              sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non
+              fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+          <button onclick="myFunction1()" id="myBtn1">Read more</button>
+        </div>
+<<<<<<< HEAD
+      </div>
+    </div>
+    <div class="blog-main">
+      <div class="main-part" id="main">
+        <div class="cont-img1" id="coimg1">
+        </div>
+        <div class="cont-text">
+          <div class="blog-header">
+            Pembangunan Dashboard Business Intelligence Untuk Visualisasi data Program Studi Universitas Andalas
+            <hr style="clear: both; height: 3px; background-color: #101010">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="blog-main">
+      <div class="main-part" id="main">
+        <div class="cont-img1" id="coimg1">
+        </div>
+        <div class="cont-text">
+          <div class="blog-header">
+            Pembuatan perancangan UI Aplikasi CRM
+            <hr style="clear: both; height: 3px; background-color: #101010">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="blog-main">
+      <div class="main-part" id="main">
+        <div class="cont-img1" id="coimg1">
+        </div>
+        <div class="cont-text">
+          <div class="blog-header">
+            Customisasi ERP Odoo
+            <hr style="clear: both; height: 3px; background-color: #101010">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="blog-main">
+      <div class="main-part" id="main">
+        <div class="cont-img1" id="coimg1">
+        </div>
+        <div class="cont-text">
+          <div class="blog-header">
+            Analisis Sentimen Twitter untuk Menilai Opini Publik Terhadap UU KUHP Menggunakan Algoritma Naïve Bayes
+            Classifier
+            <hr style="clear: both; height: 3px; background-color: #101010">
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+
+    <!--Copyright Information-->
+    <div class="copyright">
+      <p>&copy; 2024 <a href="https://wa.me/qr/MGAWY2SBHDYIK1">Aulia Dwi Shaviqa Pohan</a></p>
+    </div>
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+        var btnText1 = document.getElementById("myBtn1");
+        var main = document.getElementById("main");
+        var coimg = document.getElementById("coimg");
+        var coimg1 = document.getElementById("coimg1");
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+          main.style.display = "flex";
+          coimg.style.width = "350px";
+
+
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+          main.style.display = "block";
+          coimg.style.width = "100%";
+          coimg.style.transition = "all 1s";
+        }
+      }
+    </script>
+    <script>
+      function myFunction1() {
+        var dats = document.getElementById("dats");
+        var moreText = document.getElementById("more");
+        // var btnText = document.getElementById("myBtn");
+        var btnText1 = document.getElementById("myBtn1");
+        var dua = document.getElementById("dua");
+        // var coimg = document.getElementById("coimg");
+        var coimg1 = document.getElementById("coimg1");
+        if (dats.style.display === "none") {
+          dats.style.display = "inline";
+          btnText1.innerHTML = "Read more";
+          moreText.style.display = "none";
+          dua.style.display = "flex";
+          coimg.style.width = "350px";
+
+
+        } else {
+          dats.style.display = "none";
+          btnText1.innerHTML = "Read less";
+          moreText.style.display = "inline";
+          dua.style.display = "block";
+          coimg1.style.width = "100%";
+          coimg1.style.transition = "all 1s";
+=======
         <div class="blog">
            <h1 style="color:darkviolet; position: relative; left: 20%;"><span style="color: darkorange; text-decoration: underline">B</span>log</h1>
             <div class="blog-main">
@@ -101,8 +396,11 @@
                   coimg.style.width = "100%";
                   coimg.style.transition = "all 1s";
                 }
+>>>>>>> fee8dd1031d53b0f8d207a6c0585da2b54000dbe
         }
-        </script>
-        <script src="js/main.js" type="text/javascript"></script>
-    </body>
+      }
+    </script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
 </html>
